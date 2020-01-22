@@ -1,7 +1,7 @@
-## Create your own module
+# Create your own module
 
-# 1. Register in 'https://www.npmjs.com/'
-# 2. Check if your desired module name exists
+## 1. Register in 'https://www.npmjs.com/'
+## 2. Check if your desired module name exists
 ```bash
 $ npm view your-first-node-module
 ```
@@ -27,16 +27,16 @@ npm ERR!     /Users/tmpvar/work/tmp/npm-debug.log
 npm ERR! not ok code 0
 ```
 
-# 3. Initialize Package.json
+## 3. Initialize Package.json
 
 ```bash
 $ npm init
 ```
 
-# 4. Add Code
+## 4. Add Code
 Export your code in the main entrance of your project which is in your ```package.json```'s main property
 
-# 5. Publish your module
+## 5. Publish your module
 
 ```bash
 $ npm publish
